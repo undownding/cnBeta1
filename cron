@@ -1,0 +1,7 @@
+crontab -l
+*/5 * * * * php /home/renzhn/cnbeta1/artisan article:sync
+
+*/7 * * * * php /home/renzhn/cnbeta1/artisan article:update 1
+*/15 * * * * php /home/renzhn/cnbeta1/artisan article:update 2
+*/30 * * * * php /home/renzhn/cnbeta1/artisan article:update 3
+0 * * * * php /home/renzhn/cnbeta1/artisan article:update 4

@@ -1,0 +1,30 @@
+# Laravel
+/bootstrap/compiled.php
+/vendor
+
+# Configuration
+/app/config/local
+/app/config/staging
+/app/config/production
+
+# Composer
+composer.phar
+composer.lock
+
+# OS
+Thumbs.db
+.DS_Store
+.idea/
+vagrant
+.vagrant
+
+# Packages
+_ide_helpers.php
+/nbproject/private/
+
+# JS & CSS Minified
+/public/assets/build/*
+
+# Weibo Related
+weibo_account.txt
+weibo_cookie.txt
